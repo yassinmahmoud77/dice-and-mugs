@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ef;
+    color: #333333;
+}
+
+.navbar {
+    background-color: #3b2f2f;
+}
+
+.navbar-brand {
+    color: #e8dcc8;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #e8dcc8;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #f4c95d;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f4c95d;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+}
+
+label {
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 6px;
+}
+
+footer {
+    background-color: #3b2f2f;
+    color: white;
+    padding: 20px;
+}
+
+.welcome-banner {
+    position: relative;
+    margin: 30px 0;
+}
+
+.welcome-banner img {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    color: white;
+}
+
+.welcome-text h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.welcome-text p {
+    font-size: 14px;
+}
